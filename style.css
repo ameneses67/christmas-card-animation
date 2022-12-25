@@ -1,0 +1,35 @@
+body {
+  margin: 100px;
+  background-color: #eee;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+/* tarjeta */
+.tarjeta {
+  width: 300px;
+  height: 300px;
+  margin-inline: auto;
+}
+
+/* tarjeta lado izquierda */
+.tarjeta-izquierda {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  box-shadow: 5px 0 5px rgb(0, 0, 0, 0.1);
+}
+
+.tarjeta-izquierda img {
+  aspect-ratio: 1 / 1;
+  /* object-fit: cover; */
+}
+
+/* tarjeta abierta */
+
+/* tarjeta lado derecho */
